@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Gotham";
+	font-size: 14pt;
+	color: white;
+	height: 100%;
+	width: 100%
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-image: url("set.jpg");
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+label {
+	opacity: 80%;
+}
+
+#startMen {
+	height: 40px;
+	margin-left: 10%;
+	width: 400px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#startWomen {
+	height: 40px;
+	margin-left: 10%;
+	width: 400px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#minutes {
+	display: inline; 
+	font-size: 36pt;
+}
+
+#seconds {
+	display: inline; 
+	font-size: 36pt;
+}
+
+#match-hours {
+	display: inline; 
+	font-size: 36pt;
+}
+
+#match-minutes {
+	display: inline; 
+	font-size: 36pt;
+}
+
+#match-seconds {
+	display: inline; 
+	font-size: 36pt;
+}
+
+#matchplay {
+	text-align: center;
+	background-color: black;
+	opacity: 80%;
+}
+
+#startstop{
+	background-color: red; 
+	opacity: 80%; 
+	text-align: center;
+}
