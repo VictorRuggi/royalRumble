@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="royalRumble.js"></script>
+		<link rel="stylesheet" type="text/css" href="royalRumble.css">
+		<title>Royal Rumble Simulation</title>
+	</head>
+	
+	<body>
+	
+		<h1 style="font-size: 36pt; text-align: center"><img src="royalRumble.png" style="width: 300px; height: 125px"/>SIMULATION<p style="font-size: 12pt">IN MEMORY OF PAT PATTERSON, CREATOR OF THE ROYAL RUMBLE</p></h1>
+		<div id="header" style="background-color: black; opacity: 80%">
+			<p style="text-align: center"><b>Click the button below to begin the simulation. This simulator does not take into account surprise entrants like legends, however, entrants that 
+			are injured, whether they are legit or kayfabe injuries (aka, storyline) and who are still on the active WWE roster can make a surprise appearance in the match. Just like in the real match, a new wrestler enters at every 90 seconds until all 30 
+			wrestlers have entered the match, and unlike the WWE, I mean 90 seconds and not 2 or 3 minutes at times :). The last wrestler standing after all 30 wrestlers have entered will be declared the winner and will 
+			receive a World, Universal, WWE or Women&#39;s Championship match of their choice at <i>WrestleMania</i>! Wrestlers from <i>RAW</i>, <i>SmackDown</i> & <i>NXT</i> who currently do not hold their brand&#39;s top championship are eligible to participate.</b></p>
+		</div>
+		<div id="header" style="background-color: black; opacity: 80%">
+			<p style="text-align: center"><b><br/>Wrestlers currently holding the top championships who are not eligible to participate in the match:<br/><span style="color: red">Drew McIntyre - WWE Champion</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: blue">Roman Reigns - WWE Universal Champion</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: yellow">Finn B&aacute;lor - NXT Champion</span><br/><span style="color: red">Asuka - RAW Women&#39;s Champion</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: blue">Sasha Banks - SmackDown Women&#39;s Champion</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: yellow">Io Shirai - NXT Women&#39;s Champion</span></b></p>
+		</div>
+		
+		<div>
+			<ul>
+				<li>
+					<div id="match-time" style="background-color: darkred; opacity: 80%; width: 100%; text-align: center">
+						<p>MATCH TIME</p>
+						<span id="match-hours"></span>
+						:&nbsp;&nbsp;&nbsp;&nbsp;
+						<span id="match-minutes"></span>
+						:&nbsp;&nbsp;&nbsp;&nbsp;
+						<span id="match-seconds"></span>
+						<br/>
+						<p>HOURS&nbsp;&nbsp;&nbsp;&nbsp;MINUTES&nbsp;&nbsp;&nbsp;&nbsp;SECONDS</p>
+					</div>
+				</li>
+				<li>
+					<div id="timer" style="background-color: darkred; opacity: 80%; width: 100%; text-align: center">
+						<p>COUNTDOWN UNTIL THE NEXT ENTRANT</p>
+						<span id="minutes"></span>
+						:&nbsp;&nbsp;&nbsp;&nbsp;
+						<span id="seconds"></span>
+						<br/>
+						<p>MINUTES&nbsp;&nbsp;&nbsp;&nbsp;SECONDS</p>
+					</div>
+				</li>
+				<li>
+					<div id="active-header" style="background-color: #00cc00; opacity: 80%; width: 100%; text-align: center">
+						<p>CURRENTLY IN THE RING<br/></p>
+						<div id="active-wrestlers" style="width: 100%; text-align: center">
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="startstop">
+			<ul>
+				<li><label id="label">Start the simulation by clicking here.</label></li>
+				<li><input type="button" id="startMen" value="BEGIN SIMULATION (MALE RUMBLE)"/></li>
+				<li><input type="button" id="startWomen" value="BEGIN SIMULATION (FEMALE RUMBLE)"/></li>
+			</ul>
+		</div>
+		
+		<div id="matchplay">
+		</div>
+	
+	</body>
+</html>
